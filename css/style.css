@@ -1,8 +1,13 @@
 body {
   background-color: rgb(109 191 107 / 0.25);
   background-color: rgb(109 191 107 / 0.25);
-  --tw-text-opacity: 1;
-  color: rgb(5 54 87 / var(--tw-text-opacity));
+  color: rgb(5 54 87 / 1);
+  line-height: 1.5;
+  font-family: "Noto Sans JP", "Arial", "sans-serif";
+}
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
 }
 /* ------------------------------
     header
@@ -110,7 +115,7 @@ body {
   margin-left: 10rem /* 160px */;
   margin-right: 10rem /* 160px */;
 }
-.interest-text {
+.interest h2 {
   font-size: 1.875rem /* 30px */;
   line-height: 2.25rem /* 36px */;
   margin-top: 1.25rem /* 20px */;
@@ -129,10 +134,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.interest-words {
+.interest-text {
   position: relative;
 }
-.interest-words::after {
+.interest-text::after {
   position: absolute;
   content: "";
   background-color: white;
@@ -146,7 +151,7 @@ body {
 }
 .speechBubble .hatena {
   object-fit: contain;
-  width: 32rem/* 512px */;
+  width: 32rem /* 512px */;
   margin-left: 10rem /* 160px */;
   margin-right: 10rem /* 160px */;
 }
@@ -155,4 +160,157 @@ body {
   width: 28rem /* 448px */;
   margin-left: 12rem /* 192px */;
   margin-right: 12rem /* 192px */;
+}
+/* ------------------------------
+    Way
+------------------------------ */
+.way {
+  background-color: rgb(109 191 107 /1);
+  padding-top: 4rem /* 64px */;
+  padding-bottom: 4rem /* 64px */;
+}
+.way .title {
+  margin-left: 12rem /* 192px */;
+  margin-right: 12rem /* 192px */;
+}
+.way .title .bubble4 {
+  margin-left: 8rem /* 128px */;
+}
+.way .title h2 {
+  margin-bottom: 2.5rem /* 40px */;
+  font-size: 2.25rem /* 36px */;
+  line-height: 2.5rem /* 40px */;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.way .way-lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 6rem /* 96px */;
+  margin-right: 6rem /* 96px */;
+  background-color: white;
+  border-radius: 1.5rem /* 24px */;
+}
+.way .border {
+  background-color: rgb(209 213 219 / 1);
+  width: 0.125rem /* 2px */;
+  margin-top: 2.5rem /* 40px */;
+  margin-bottom: 2.5rem /* 40px */;
+}
+.way-list {
+  width: 18rem /* 288px */;
+  margin: 2.5rem /* 40px */;
+  text-align: center;
+}
+.way-list .blue {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  height: 12rem /* 192px */;
+  width: 12rem /* 192px */;
+}
+.way-list .pink {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  height: 12rem /* 192px */;
+  width: 12rem /* 192px */;
+}
+.way-list .green {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  height: 12rem /* 192px */;
+  width: 10rem /* 160px */;
+}
+.way-list .yellow {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  height: 12rem /* 192px */;
+  width: 8rem /* 128px */;
+}
+.way-list h3 {
+  text-align: center;
+  margin-top: 1.25rem /* 20px */;
+  margin-bottom: 1.25rem /* 20px */;
+  position: relative;
+  z-index: 10;
+}
+.way-list .blue {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  position: relative;
+}
+.way-list .blue::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(121 211 241 / 1);
+  height: 12px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list .pink {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  position: relative;
+}
+.way-list .pink::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(252 171 182 / 1);
+  height: 12px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list .green {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  position: relative;
+}
+.way-list .green::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(112 218 157 / 1);
+  height: 12px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list .yellow {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  position: relative;
+}
+.way-list .yellow::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(252 220 74 / 1);
+  height: 12px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list p {
+  overflow-wrap: break-word;
+  text-align: start;
+}
+.way-list .language {
+  margin-top: 1.25rem /* 20px */;
+}
+.language ul {
+  text-align: start;
 }
