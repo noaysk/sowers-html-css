@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(109 191 107 / 0.25);
+  background-color: rgb(109 191 107 / 0.25);
+  --tw-text-opacity: 1;
+  color: rgb(5 54 87 / var(--tw-text-opacity));
+}
+/* ------------------------------
+    header
+------------------------------ */
+.header-width {
+  width: 60%;
+}
+.flex {
+  display: flex;
+}
+.header-leftside {
+  background-color: rgb(109 191 107 / 1);
+  height: 32rem /* 512px */;
+  top: 12rem /* 192px */;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem /* 80px */;
+}
+.header-font {
+  font-size: 1.25rem /* 20px */;
+  line-height: 1.75rem /* 28px */;
+  font-weight: 700;
+}
+.header-font p {
+  margin-left: 2.5rem /* 40px */;
+  position: relative;
+  z-index: 10;
+}
+.header-font p span {
+  position: relative;
+}
+.header-font p span::after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  height: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.header-font img {
+  margin-top: 1.25rem /* 20px */;
+  margin-bottom: 1.25rem /* 20px */;
+}
+.header-font .button {
+  margin-top: 2.5rem /* 40px */;
+  margin-bottom: 2.5rem /* 40px */;
+}
+.header-font .button .button-01 {
+  border-width: 4px;
+  background-color: rgb(14, 22, 41);
+  color: white;
+  font-weight: 700;
+  border-color: rgb(14, 22, 41);
+  padding: 0.5rem 1rem /* 8px 16px*/;
+  border-radius: 0.25rem /* 4px */;
+  margin: 1.25rem /* 20px */;
+}
+.header-font .button .button-01:hover {
+  background-color: rgb(15 23 42 / 0.75);
+}
+
+.header-font .button .button-02 {
+  border-width: 4px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border-color: rgb(14, 22, 41);
+  padding: 0.5rem 1rem /* 8px 16px*/;
+  border-radius: 0.25rem /* 4px */;
+  margin: 1.25rem /* 20px */;
+}
+.header-font .button .button-02:hover {
+  background-color: rgb(203 213 225 / 1);
+}
+.header-rightside {
+  width: 40%;
+  display: flex;
+}
+.header-rightside img {
+  margin: 3rem auto;
+}
