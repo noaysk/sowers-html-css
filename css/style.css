@@ -478,3 +478,10 @@ body {
 .apply button:hover {
   background-color: rgb(15 23 42 / 0.75);
 }
+/* ------------------------------
+    Footer
+------------------------------ */
+footer {
+  background-color: white;
+  text-align: center;
+}
