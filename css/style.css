@@ -314,3 +314,10 @@ body {
 .language ul {
   text-align: start;
 }
+/* ------------------------------
+    Triangle
+------------------------------ */
+.triangle {
+  display: block;
+  margin: 2.5rem auto /* 40px */;
+}
