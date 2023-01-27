@@ -186,6 +186,132 @@ body {
 /* ------------------------------
     Interest
 ------------------------------ */
+.interest {
+  margin-top: 2.5rem /* 40px */;
+  margin-bottom: 2.5rem /* 40px */;
+}
+.speechBubble {
+  display: flex;
+  justify-content: center;
+}
+.speechBubble .bubble1 {
+  object-fit: contain;
+  width: 8rem;
+  margin-right: 1rem;
+
+}
+.speechBubble .bubble2 {
+  object-fit: contain;
+  width: 10rem;
+  margin-left: 1rem;
+}
+.interest h2 {
+  margin-top: 1.25rem /* 20px */;
+  margin-bottom: 1.25rem /* 20px */;
+  text-align: center;
+  font-weight: 600;
+}
+.interest-bg {
+  background-color: rgb(109 191 107 / 1);
+  height: 3rem;
+  padding: 0.5rem ;
+  width: 20rem;
+  border-radius: 1rem /* 16px */;
+  position: relative;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+}
+.interest-text {
+  position: relative;
+}
+.interest-text::after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  height: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.25rem /* 4px */;
+  letter-spacing: 0.05em;
+}
+.speechBubble .hatena {
+  object-fit: contain;
+  width: 10rem;
+  margin-right: 1rem;
+}
+.speechBubble .bubble3 {
+  object-fit: contain;
+  width: 8rem;
+  margin-left: 1rem;
+}
+@media (min-width: 768px) {  
+  .interest {
+    margin-top: 2.5rem /* 40px */;
+    margin-bottom: 2.5rem /* 40px */;
+  }
+  .speechBubble {
+    display: flex;
+    justify-content: center;
+  }
+  .speechBubble .bubble1 {
+    object-fit: contain;
+    width: 10rem;
+    margin-right: 3rem;
+  
+  }
+  .speechBubble .bubble2 {
+    object-fit: contain;
+    width: 12rem;
+    margin-left: 1rem;
+  }
+  .interest h2 {
+    margin-top: 1.25rem /* 20px */;
+    margin-bottom: 1.25rem /* 20px */;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 2rem/* 32px */;
+  }
+  .interest-bg {
+    background-color: rgb(109 191 107 / 1);
+    height: 3rem;
+    padding: 0.5rem ;
+    width: 30rem;
+    border-radius: 1rem /* 16px */;
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .interest-text {
+    position: relative;
+  }
+  .interest-text::after {
+    position: absolute;
+    content: "";
+    background-color: white;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 0.25rem /* 4px */;
+    letter-spacing: 0.05em;
+  }
+  .speechBubble .hatena {
+    object-fit: contain;
+    width: 14rem;
+    margin-right: 1rem;
+  }
+  .speechBubble .bubble3 {
+    object-fit: contain;
+    width: 12rem;
+    margin-left: 3rem;
+  }
+  }
 @media (min-width: 1024px) {
   .interest {
     margin-top: 2.5rem /* 40px */;
