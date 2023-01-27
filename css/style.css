@@ -385,19 +385,168 @@ body {
 /* ------------------------------
     Way
 ------------------------------ */
-@media (min-width: 1024px) {
+.way {
+  background-color: rgb(109 191 107 /1);
+  padding-bottom: 4rem /* 64px */;
+}
+
+.way .title .bubble4 {
+  display: none;
+}
+.way .title .mbubble4 {
+width: 30%;
+}
+.way .title h2 {
+  font-size: 1.5rem ;
+  line-height: 1rem /* 40px */;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-bottom: 3rem;
+}
+.way .way-lists {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  border-radius: 1.5rem /* 24px */;
+  width: 20rem;
+  margin: 0 auto;
+}
+.way .border {
+  display: none;
+}
+.way-list {
+  width: 15rem ;
+  text-align: center;
+  margin: 0 auto;
+padding: 2rem 0;
+  border-bottom: dotted rgb(209 213 219 / 1);
+}
+
+.way-list:last-child {
+  border-bottom: none;
+}
+.way-list .blue {
+  object-fit: contain;
+  height: 8rem ;
+  width: 8rem ;
+}
+.way-list .pink {
+  object-fit: contain;
+  height: 8rem ;
+  width: 8rem ;
+}
+.way-list .green {
+  object-fit: contain;
+  height: 8rem ;
+  width: 8rem ;
+}
+.way-list .yellow {
+  object-fit: contain;
+  height: 8rem ;
+  width: 8rem ;
+}
+.way-list h3 {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  margin: 1rem 0;
+}
+.way-list .s-blue {
+  font-size: 1rem ;
+  position: relative;
+}
+.way-list .s-blue::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(121 211 241 / 1);
+  height: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list .s-pink {
+  font-size: 1rem ;
+  position: relative;
+}
+.way-list .s-pink::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(252 171 182 / 1);
+  height: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list .s-green {
+  font-size: 1rem ;
+  position: relative;
+}
+.way-list .s-green::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(112 218 157 / 1);
+  height: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list .s-yellow {
+  font-size: 1rem ;
+  position: relative;
+}
+.way-list .s-yellow::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(252 220 74 / 1);
+  height: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 0.125rem /* 2px */;
+}
+.way-list p {
+  overflow-wrap: break-word;
+  text-align: start;
+  font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+}
+.way-list .language {
+  margin-top: 1.25rem /* 20px */;
+}
+.language ul {
+  text-align: start;
+  font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+}
+@media (min-width: 768px) { 
+
   .way {
     background-color: rgb(109 191 107 /1);
     padding-top: 4rem /* 64px */;
     padding-bottom: 4rem /* 64px */;
   }
   .way .title {
-    margin-left: 12rem /* 192px */;
-    margin-right: 12rem /* 192px */;
+    display: flex;
+    flex-direction: column;
   }
   .way .title .bubble4 {
-    margin-left: 8rem /* 128px */;
-    width: 20rem;
+    display: block;
+    width: 12rem;
+    align-self: center;
+    margin-right: 40rem;
+  }
+  .way .title .mbubble4 {
+    display: none;
   }
   .way .title h2 {
     margin-bottom: 2.5rem /* 40px */;
@@ -412,12 +561,180 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 6rem /* 96px */;
-    margin-right: 6rem /* 96px */;
     background-color: white;
     border-radius: 1.5rem /* 24px */;
+    width: 90%;
   }
   .way .border {
+    display: block;
+    background-color: rgb(209 213 219 / 1);
+    width: 0.125rem /* 2px */;
+    margin-top: 2.5rem /* 40px */;
+    margin-bottom: 2.5rem /* 40px */;
+  }
+  .way-list {
+    width: 10rem;
+    text-align: center;
+    border: none;
+  }
+  .way-list .blue {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    height: 8rem;
+    width: 8rem;
+  }
+  .way-list .pink {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    height: 8rem;
+    width: 8rem;
+  }
+  .way-list .green {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    height: 8rem;
+    width: 6rem;
+  }
+  .way-list .yellow {
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    height: 8rem;
+    width: 8rem;
+  }
+  .way-list h3 {
+    text-align: center;
+    margin-top: 1.25rem /* 20px */;
+    margin-bottom: 1.25rem /* 20px */;
+    position: relative;
+    z-index: 10;
+    font-size: 0.75rem;
+    line-height: 1rem;
+   
+  }
+  .way-list .s-blue {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    position: relative;
+    display: block;
+  }
+  .way-list .s-blue::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(121 211 241 / 1);
+    height: 12px;
+    bottom: 0;
+    left: 1.5rem;
+    right: 1.5rem;
+    z-index: -1;
+    border-radius: 0.125rem /* 2px */;
+  }
+  .way-list .s-pink {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    position: relative;
+    display: block;
+  }
+  .way-list .s-pink::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(252 171 182 / 1);
+    height: 12px;
+    bottom: 0;
+    left: 1.5rem;
+    right: 1.5rem;
+    z-index: -1;
+    border-radius: 0.125rem /* 2px */;
+  }
+  .way-list .s-green {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    position: relative;
+    display: block;
+  }
+  .way-list .s-green::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(112 218 157 / 1);
+    height: 12px;
+    bottom: 0;
+    left:1.5rem;
+    right: 1.5rem;
+    z-index: -1;
+    border-radius: 0.125rem /* 2px */;
+  }
+  .way-list .s-yellow {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    position: relative;
+    display: block;
+  }
+  .way-list .s-yellow::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(252 220 74 / 1);
+    height: 12px;
+    bottom: 0;
+    left: 1rem;
+    right: 1rem;
+    z-index: -1;
+    border-radius: 0.125rem /* 2px */;
+  }
+  .way-list p {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    overflow-wrap: break-word;
+    text-align: start;
+  }
+  .way-list .language {
+    margin-top: 1.25rem /* 20px */;
+  }
+  .language ul {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .way {
+    background-color: rgb(109 191 107 /1);
+    padding-top: 4rem /* 64px */;
+    padding-bottom: 4rem /* 64px */;
+  }
+  .way .title {
+    display: flex;
+    flex-direction: column;
+  }
+  .way .title .bubble4 {
+    width: 20rem;
+    align-self: center;
+    margin-right: 40rem;
+
+  }
+  .way .title .mbubble4 {
+    display: none;
+  }
+  .way .title h2 {
+    margin-bottom: 2.5rem /* 40px */;
+    font-size: 2.25rem /* 36px */;
+    line-height: 2.5rem /* 40px */;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  .way .way-lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1.5rem /* 24px */;
+    width: 80%;
+  }
+  .way .border {
+    display: block;
     background-color: rgb(209 213 219 / 1);
     width: 0.125rem /* 2px */;
     margin-top: 2.5rem /* 40px */;
@@ -427,6 +744,7 @@ body {
     width: 18rem /* 288px */;
     margin: 2.5rem /* 40px */;
     text-align: center;
+    border: none;
   }
   .way-list .blue {
     margin-left: auto;
@@ -463,12 +781,13 @@ body {
     position: relative;
     z-index: 10;
   }
-  .way-list .blue {
+  .way-list .s-blue {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
     position: relative;
+    display: inline;
   }
-  .way-list .blue::after {
+  .way-list .s-blue::after {
     position: absolute;
     content: "";
     background-color: rgb(121 211 241 / 1);
@@ -479,12 +798,13 @@ body {
     z-index: -1;
     border-radius: 0.125rem /* 2px */;
   }
-  .way-list .pink {
+  .way-list .s-pink {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
     position: relative;
+    display: inline;
   }
-  .way-list .pink::after {
+  .way-list .s-pink::after {
     position: absolute;
     content: "";
     background-color: rgb(252 171 182 / 1);
@@ -495,12 +815,13 @@ body {
     z-index: -1;
     border-radius: 0.125rem /* 2px */;
   }
-  .way-list .green {
+  .way-list .s-green {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
     position: relative;
+    display: inline;
   }
-  .way-list .green::after {
+  .way-list .s-green::after {
     position: absolute;
     content: "";
     background-color: rgb(112 218 157 / 1);
@@ -511,12 +832,13 @@ body {
     z-index: -1;
     border-radius: 0.125rem /* 2px */;
   }
-  .way-list .yellow {
+  .way-list .s-yellow {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
     position: relative;
+    display: inline;
   }
-  .way-list .yellow::after {
+  .way-list .s-yellow::after {
     position: absolute;
     content: "";
     background-color: rgb(252 220 74 / 1);
