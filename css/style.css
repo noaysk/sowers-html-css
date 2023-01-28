@@ -73,7 +73,6 @@ body {
   width: 10rem /* 160px */;
   margin-top: 3rem;
 }
-
 @media (min-width: 768px) {
   .t-xl {
     display: none;
@@ -277,13 +276,13 @@ body {
 }
 @media (min-width: 1024px) {
   .speechBubble .bubble1 {
-    width: 24rem /* 384px */;
+    width: 23rem;
     margin-left: 10rem /* 160px */;
     margin-right: 10rem /* 160px */;
   }
   .speechBubble .bubble2 {
     object-fit: contain;
-    width: 30rem /* 480px */;
+    width: 28rem;
     margin-left: 10rem /* 160px */;
     margin-right: 10rem /* 160px */;
   }
@@ -302,12 +301,12 @@ body {
     height: 15px;
   }
   .speechBubble .hatena {
-    width: 32rem /* 512px */;
+    width: 28rem /* 512px */;
     margin-left: 10rem /* 160px */;
     margin-right: 10rem /* 160px */;
   }
   .speechBubble .bubble3 {
-    width: 28rem /* 448px */;
+    width: 25rem /* 448px */;
     margin-left: 12rem /* 192px */;
     margin-right: 12rem /* 192px */;
   }
@@ -451,6 +450,8 @@ body {
   text-align: start;
   font-size: 0.75rem /* 12px */;
   line-height: 1rem /* 16px */;
+  word-break: break-all;
+
 }
 .way-list .language {
   margin-top: 1.25rem /* 20px */;
@@ -558,32 +559,34 @@ body {
     font-size: 2.25rem /* 36px */;
   }
   .way .way-lists {
-    width: 80%;
+    width: 60rem;
   }
   .way-list {
-    width: 13rem;
-    margin: 2.5rem /* 40px */;
+    width: 10rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .way-list .blue {
-    height: 12rem /* 192px */;
-    width: 12rem /* 192px */;
+    height: 10rem /* 192px */;
+    width: 8rem /* 192px */;
   }
   .way-list .pink {
-    height: 12rem /* 192px */;
-    width: 12rem /* 192px */;
+    height: 10rem /* 192px */;
+    width: 8rem /* 192px */;
   }
   .way-list .green {
-    height: 12rem /* 192px */;
-    width: 10rem /* 160px */;
+    height: 10rem /* 192px */;
+    width: 6rem /* 160px */;
   }
   .way-list .yellow {
-    height: 12rem /* 192px */;
-    width: 8rem /* 128px */;
+    height: 10rem /* 192px */;
+    width: 4rem /* 128px */;
   }
   .way-list .s-blue {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
-    display: inline;
   }
   .way-list .s-blue::after {
     left: 0;
@@ -592,7 +595,6 @@ body {
   .way-list .s-pink {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
-    display: inline;
   }
   .way-list .s-pink::after {
     left: 0;
@@ -601,8 +603,6 @@ body {
   .way-list .s-green {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
-    position: relative;
-    display: inline;
   }
   .way-list .s-green::after {
     left: 0;
@@ -611,13 +611,14 @@ body {
   .way-list .s-yellow {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
-    position: relative;
-    display: inline;
   }
   .way-list .s-yellow::after {
     left: 0;
     right: 0;
   }
+.way-list .language {
+  align-self: start;
+}
 }
 /* ------------------------------
     Triangle
@@ -919,7 +920,7 @@ body {
 }
 @media (min-width: 1024px) {
   .curriculum .c-xl table {
-    width: 1300px;
+    width: 1000px;
   }
 }
 /* ------------------------------
