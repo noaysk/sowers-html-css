@@ -954,10 +954,6 @@ body {
 }
 @media (min-width: 1024px) {
   .apply {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(109 191 107 / 1);
     height: 20rem /* 320px */;
   }
   .apply button {
@@ -965,16 +961,6 @@ body {
     height: 5rem /* 80px */;
     font-size: 1.875rem /* 30px */;
     line-height: 2.25rem /* 36px */;
-    border-width: 4px;
-    background-color: rgb(15 23 42 / 1);
-    color: white;
-    font-weight: 700;
-    border-color: rgb(15 23 42 / 1);
-    border-radius: 0.25rem /* 4px */;
-    text-align: center;
-  }
-  .apply button:hover {
-    background-color: rgb(15 23 42 / 0.75);
   }
 }
 /* ------------------------------
