@@ -321,7 +321,6 @@ body {
   background-color: rgb(109 191 107 /1);
   padding-bottom: 4rem /* 64px */;
 }
-
 .way .title .bubble4 {
   display: none;
 }
@@ -356,7 +355,6 @@ body {
   padding: 2rem 0;
   border-bottom: dotted rgb(209 213 219 / 1);
 }
-
 .way-list:last-child {
   border-bottom: none;
 }
@@ -388,6 +386,7 @@ body {
 }
 .way-list .s-blue {
   font-size: 1rem;
+  line-height: 1.5rem;
   position: relative;
 }
 .way-list .s-blue::after {
@@ -403,6 +402,7 @@ body {
 }
 .way-list .s-pink {
   font-size: 1rem;
+  line-height: 1.5rem;
   position: relative;
 }
 .way-list .s-pink::after {
@@ -418,6 +418,7 @@ body {
 }
 .way-list .s-green {
   font-size: 1rem;
+  line-height: 1.5rem;
   position: relative;
 }
 .way-list .s-green::after {
@@ -433,6 +434,7 @@ body {
 }
 .way-list .s-yellow {
   font-size: 1rem;
+  line-height: 1.5rem;
   position: relative;
 }
 .way-list .s-yellow::after {
@@ -461,11 +463,6 @@ body {
   line-height: 1rem /* 16px */;
 }
 @media (min-width: 768px) {
-  .way {
-    background-color: rgb(109 191 107 /1);
-    padding-top: 1rem /* 64px */;
-    padding-bottom: 1rem /* 64px */;
-  }
   .way .title {
     display: flex;
     flex-direction: column;
@@ -480,20 +477,12 @@ body {
     display: none;
   }
   .way .title h2 {
-    margin-bottom: 2.5rem /* 40px */;
     font-size: 2rem;
     line-height: 2.5rem /* 40px */;
-    font-weight: 800;
-    text-align: center;
-    letter-spacing: 0.05em;
+    margin-bottom: 2.5rem /* 40px */;
   }
   .way .way-lists {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: white;
-    border-radius: 1.5rem /* 24px */;
     width: 90%;
   }
   .way .border {
@@ -508,128 +497,51 @@ body {
     text-align: center;
     border: none;
   }
-  .way-list .blue {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    height: 8rem;
-    width: 8rem;
-  }
-  .way-list .pink {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    height: 8rem;
-    width: 8rem;
-  }
   .way-list .green {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    height: 8rem;
     width: 6rem;
   }
-  .way-list .yellow {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    height: 8rem;
-    width: 8rem;
-  }
   .way-list h3 {
-    text-align: center;
     margin-top: 1.25rem /* 20px */;
     margin-bottom: 1.25rem /* 20px */;
-    position: relative;
-    z-index: 10;
     font-size: 0.75rem;
     line-height: 1rem;
   }
   .way-list .s-blue {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    position: relative;
     display: block;
   }
   .way-list .s-blue::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(121 211 241 / 1);
     height: 12px;
-    bottom: 0;
     left: 1.5rem;
     right: 1.5rem;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
   }
   .way-list .s-pink {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    position: relative;
     display: block;
   }
   .way-list .s-pink::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(252 171 182 / 1);
     height: 12px;
-    bottom: 0;
     left: 1.5rem;
     right: 1.5rem;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
   }
   .way-list .s-green {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    position: relative;
     display: block;
   }
   .way-list .s-green::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(112 218 157 / 1);
     height: 12px;
-    bottom: 0;
     left: 1.5rem;
     right: 1.5rem;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
   }
   .way-list .s-yellow {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    position: relative;
     display: block;
   }
   .way-list .s-yellow::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(252 220 74 / 1);
     height: 12px;
-    bottom: 0;
     left: 1rem;
     right: 1rem;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
-  }
-  .way-list p {
-    font-size: 0.75rem;
-    line-height: 1rem;
-    overflow-wrap: break-word;
-    text-align: start;
-  }
-  .way-list .language {
-    margin-top: 1.25rem /* 20px */;
-  }
-  .language ul {
-    text-align: start;
   }
 }
 
 @media (min-width: 1024px) {
   .way {
-    background-color: rgb(109 191 107 /1);
     padding-top: 4rem /* 64px */;
     padding-bottom: 4rem /* 64px */;
   }
@@ -646,103 +558,48 @@ body {
     display: none;
   }
   .way .title h2 {
-    margin-bottom: 2.5rem /* 40px */;
     font-size: 2.25rem /* 36px */;
-    line-height: 2.5rem /* 40px */;
-    font-weight: 800;
-    text-align: center;
-    letter-spacing: 0.05em;
   }
   .way .way-lists {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: white;
-    border-radius: 1.5rem /* 24px */;
     width: 80%;
-  }
-  .way .border {
-    display: block;
-    background-color: rgb(209 213 219 / 1);
-    width: 0.125rem /* 2px */;
-    margin-top: 2.5rem /* 40px */;
-    margin-bottom: 2.5rem /* 40px */;
   }
   .way-list {
     width: 13rem;
     margin: 2.5rem /* 40px */;
-    text-align: center;
-    border: none;
   }
   .way-list .blue {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
     height: 12rem /* 192px */;
     width: 12rem /* 192px */;
   }
   .way-list .pink {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
     height: 12rem /* 192px */;
     width: 12rem /* 192px */;
   }
   .way-list .green {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
     height: 12rem /* 192px */;
     width: 10rem /* 160px */;
   }
   .way-list .yellow {
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
     height: 12rem /* 192px */;
     width: 8rem /* 128px */;
-  }
-  .way-list h3 {
-    text-align: center;
-    margin-top: 1.25rem /* 20px */;
-    margin-bottom: 1.25rem /* 20px */;
-    position: relative;
-    z-index: 10;
   }
   .way-list .s-blue {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
-    position: relative;
     display: inline;
   }
   .way-list .s-blue::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(121 211 241 / 1);
-    height: 12px;
-    bottom: 0;
     left: 0;
     right: 0;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
   }
   .way-list .s-pink {
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
-    position: relative;
     display: inline;
   }
   .way-list .s-pink::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(252 171 182 / 1);
-    height: 12px;
-    bottom: 0;
     left: 0;
     right: 0;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
   }
   .way-list .s-green {
     font-size: 1.25rem /* 20px */;
@@ -751,15 +608,8 @@ body {
     display: inline;
   }
   .way-list .s-green::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(112 218 157 / 1);
-    height: 12px;
-    bottom: 0;
     left: 0;
     right: 0;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
   }
   .way-list .s-yellow {
     font-size: 1.25rem /* 20px */;
@@ -768,25 +618,8 @@ body {
     display: inline;
   }
   .way-list .s-yellow::after {
-    position: absolute;
-    content: "";
-    background-color: rgb(252 220 74 / 1);
-    height: 12px;
-    bottom: 0;
     left: 0;
     right: 0;
-    z-index: -1;
-    border-radius: 0.125rem /* 2px */;
-  }
-  .way-list p {
-    overflow-wrap: break-word;
-    text-align: start;
-  }
-  .way-list .language {
-    margin-top: 1.25rem /* 20px */;
-  }
-  .language ul {
-    text-align: start;
   }
 }
 /* ------------------------------
@@ -1146,19 +979,19 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(109 191 107 / 1);
-  height: 8rem/* 128px */;
-  margin-top: 2.5rem/* 40px */;
+  height: 8rem /* 128px */;
+  margin-top: 2.5rem /* 40px */;
 }
 .apply button {
-  padding: 0.5rem 1.25rem/* 8px *//* 20px */;
-  font-size: 1rem/* 16px */;
-  line-height: 1.5rem/* 24px */;
+  padding: 0.5rem 1.25rem /* 8px */ /* 20px */;
+  font-size: 1rem /* 16px */;
+  line-height: 1.5rem /* 24px */;
   border-width: 4px;
   background-color: rgb(15 23 42 / 1);
   color: white;
   font-weight: 700;
   border-color: rgb(15 23 42 / 1);
-  border-radius: 0.25rem/* 4px */;
+  border-radius: 0.25rem /* 4px */;
   text-align: center;
 }
 .apply button:hover {
