@@ -730,47 +730,31 @@ body {
   .join h2 {
     font-size: 2.25rem /* 36px */;
     line-height: 2.5rem /* 40px */;
-    font-weight: 800;
     margin-top: 1rem;
-    text-align: center;
   }
   .join h3 {
-    text-align: center;
     padding-top: 1.25rem /* 20px */;
   }
-
   .join1 {
-    width: 12rem;
     margin: 2.5rem 3% 0 3%;
-    overflow-wrap: break-word;
   }
   .join2 {
-    width: 12rem;
     margin: 6rem 3% 0 3%;
-    overflow-wrap: break-word;
   }
   .join3 {
-    width: 12rem;
     margin: 10rem 3% 0 3%;
-    overflow-wrap: break-word;
   }
   .join4 {
-    width: 12rem;
     margin: 0 5% 0 5%;
-    overflow-wrap: break-word;
   }
   .join5 {
-    width: 12rem;
     margin: 4rem 5% 0 5%;
-    overflow-wrap: break-word;
   }
   .number {
-    text-align: start;
     font-size: 3rem;
     line-height: 1;
   }
   .join img {
-    object-fit: contain;
     width: 12rem;
     height: 8rem /* 96px */;
   }
@@ -784,20 +768,6 @@ body {
   }
 }
 @media (min-width: 1024px) {
-  .join {
-    background-image: url("../img/green.png");
-  }
-  .join h2 {
-    font-size: 2.25rem /* 36px */;
-    line-height: 2.5rem /* 40px */;
-    font-weight: 800;
-    margin-top: 1rem;
-    text-align: center;
-  }
-  .join h3 {
-    text-align: center;
-    padding-top: 1.25rem /* 20px */;
-  }
   .join ul {
     margin-left: 8rem /* 128px */;
     margin-right: 8rem /* 128px */;
@@ -807,51 +777,36 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2.5rem /* 40px */;
-    overflow-wrap: break-word;
   }
   .join2 {
     width: 20%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 6rem /* 96px */;
-    overflow-wrap: break-word;
   }
   .join3 {
     width: 20%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10rem /* 160px */;
-    overflow-wrap: break-word;
   }
   .join4 {
     width: 20%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 4rem /* 64px */;
-    overflow-wrap: break-word;
   }
   .join5 {
     width: 20%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10rem /* 160px */;
-    overflow-wrap: break-word;
   }
   .number {
-    text-align: start;
     font-size: 3.75rem /* 60px */;
-    line-height: 1;
   }
   .join img {
     height: 12rem;
-  }
-  .join .content {
-    margin-top: 1.25rem /* 20px */;
-    margin-bottom: 1.25rem /* 20px */;
-  }
-  .join .content span {
-    font-size: 1.25rem /* 20px */;
-    line-height: 1.75rem /* 28px */;
   }
 }
 /* ------------------------------
