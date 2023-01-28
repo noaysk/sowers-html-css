@@ -740,7 +740,7 @@ padding: 2rem 0;
     margin-bottom: 2.5rem /* 40px */;
   }
   .way-list {
-    width: 18rem /* 288px */;
+    width: 13rem;
     margin: 2.5rem /* 40px */;
     text-align: center;
     border: none;
@@ -878,18 +878,161 @@ padding: 2rem 0;
 /* ------------------------------
     Join
 ------------------------------ */
-@media (min-width: 1024px) {
-  .join {
-    background-image: url("../img/green.png");
+.join{
+  background-image: url("../img/m-green.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+.join h2 {
+  font-size: 1.25rem/* 20px */;
+  line-height: 1.75rem/* 28px */;
+  margin-top: 2rem/* 32px */;
+  text-align: center;
+}
+.join h3 {
+  font-size: 0.875rem/* 14px */;
+  line-height: 1.25rem/* 20px */;
+  text-align: center;
+  padding-top: 0.5rem/* 8px */;
+}
+.join ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.join1 {
+  width: 12rem/* 128px */;
+  margin: 1.25rem;
+  overflow-wrap: break-word;
+  display: flex;
+    flex-direction: column;
+}
+.join2 {
+  width: 12rem/* 128px */;
+  margin: 1.25rem;
+  overflow-wrap: break-word;
+  display: flex;
+    flex-direction: column;
+}
+.join3 {
+  width: 12rem/* 128px */;
+  margin: 1.25rem;
+  overflow-wrap: break-word;
+  display: flex;
+    flex-direction: column;
+}
+.join4 {
+  width: 12rem/* 128px */;
+  margin: 1.25rem;
+  overflow-wrap: break-word;
+  display: flex;
+    flex-direction: column;
+}
+.join5 {
+  width: 12rem/* 128px */;
+  margin: 1.25rem;
+  overflow-wrap: break-word;
+  display: flex;
+    flex-direction: column;
+}
+.number{
+  font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+
+}
+.join img {
+  margin: 1rem auto;
+  object-fit: contain;
+  height: 6rem/* 96px */;
+}
+.join .content {
+  margin: 1rem 0/* 20px */;
+  text-align: center;
+
+}
+.join .content span {
+  font-size: 1rem/* 16px */;
+  line-height: 1.5rem/* 24px */;
+}
+.join .detail {
+  overflow-wrap: break-word;
+  font-size: 0.75rem/* 12px */;
+  line-height: 1rem/* 16px */;
+}
+@media (min-width: 768px) { 
+  .join{
+    background-image: url("../img/green.png");
   }
   .join h2 {
     font-size: 2.25rem /* 36px */;
     line-height: 2.5rem /* 40px */;
     font-weight: 800;
-    margin-top: 8rem /* 128px */;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .join h3 {
+    text-align: center;
+    padding-top: 1.25rem /* 20px */;
+  }
+
+  .join1 {
+    width: 12rem;
+    margin: 2.5rem 3% 0 3%;
+    overflow-wrap: break-word;
+  }
+  .join2 {
+    width: 12rem;
+    margin: 6rem 3% 0 3%;
+    overflow-wrap: break-word;
+  }
+  .join3 {
+    width: 12rem;
+    margin: 10rem 3% 0 3%;
+    overflow-wrap: break-word;
+  }
+  .join4 {
+    width: 12rem;
+    margin: 0 5% 0 5%;
+    overflow-wrap: break-word;
+  }
+  .join5 {
+    width: 12rem;
+    margin: 4rem 5% 0 5%;
+    overflow-wrap: break-word;
+  }
+  .number {
+    text-align: start;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .join img {
+
+    object-fit: contain;
+    width: 12rem;
+    height: 8rem/* 96px */;
+  }
+  .join .content {
+    margin-top: 1.25rem /* 20px */;
+    margin-bottom: 1.25rem /* 20px */;
+  }
+  .join .content span {
+    font-size: 1.25rem /* 20px */;
+    line-height: 1.75rem /* 28px */;
+  }
+
+}
+@media (min-width: 1024px) {
+  .join{
+    background-image: url("../img/green.png");
+  }
+  .join h2 {
+    font-size: 2.25rem /* 36px */;
+    line-height: 2.5rem /* 40px */;
+    font-weight: 800;
+    margin-top: 1rem;
     text-align: center;
   }
   .join h3 {
@@ -897,52 +1040,43 @@ padding: 2rem 0;
     padding-top: 1.25rem /* 20px */;
   }
   .join ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-left: 8rem /* 128px */;
     margin-right: 8rem /* 128px */;
   }
   .join1 {
-    width: 20rem /* 320px */;
-    margin-left: 5rem /* 80px */;
-    margin-right: 5rem /* 80px */;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 2.5rem /* 40px */;
     overflow-wrap: break-word;
-    text-align: center;
   }
   .join2 {
-    width: 20rem /* 320px */;
-    margin-left: 5rem /* 80px */;
-    margin-right: 5rem /* 80px */;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 6rem /* 96px */;
     overflow-wrap: break-word;
-    text-align: center;
   }
   .join3 {
-    width: 20rem /* 320px */;
-    margin-left: 5rem /* 80px */;
-    margin-right: 5rem /* 80px */;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 10rem /* 160px */;
     overflow-wrap: break-word;
-    text-align: center;
   }
   .join4 {
-    width: 20rem /* 320px */;
-    margin-left: 5rem /* 80px */;
-    margin-right: 5rem /* 80px */;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 4rem /* 64px */;
     overflow-wrap: break-word;
-    text-align: center;
   }
   .join5 {
-    width: 20rem /* 320px */;
-    margin-left: 5rem /* 80px */;
-    margin-right: 5rem /* 80px */;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 10rem /* 160px */;
     overflow-wrap: break-word;
-    text-align: center;
   }
   .number {
     text-align: start;
@@ -950,9 +1084,7 @@ padding: 2rem 0;
     line-height: 1;
   }
   .join img {
-    margin: 2.5rem auto /* 40px */;
-    object-fit: contain;
-    height: 8rem /* 128px */;
+    height: 12rem;
   }
   .join .content {
     margin-top: 1.25rem /* 20px */;
