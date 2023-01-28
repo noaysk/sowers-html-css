@@ -74,7 +74,7 @@ body {
   margin-top: 3rem;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .t-xl {
     display: none;
   }
@@ -107,7 +107,6 @@ body {
     margin-left: 3rem;
   }
 }
-
 @media (min-width: 1024px) {
   .t-md {
     display: none;
@@ -313,7 +312,6 @@ body {
     margin-right: 12rem /* 192px */;
   }
 }
-
 /* ------------------------------
     Way
 ------------------------------ */
@@ -539,7 +537,6 @@ body {
     right: 1rem;
   }
 }
-
 @media (min-width: 1024px) {
   .way {
     padding-top: 4rem /* 64px */;
@@ -637,7 +634,6 @@ body {
     margin: 2.5rem auto /* 40px */;
   }
 }
-
 /* ------------------------------
     Join
 ------------------------------ */
