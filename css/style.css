@@ -12,7 +12,7 @@ body {
 /* ------------------------------
     header
 ------------------------------ */
-.xl {
+.t-xl {
   display: none;
 }
 .m-header-width {
@@ -30,7 +30,7 @@ body {
   position: relative;
   z-index: 10;
   text-align: center;
-  margin-right:3rem ;
+  margin-right: 3rem;
 }
 .m-header-font p span {
   position: relative;
@@ -52,7 +52,6 @@ body {
 .m-header-width h1 img {
   width: 18rem;
   text-align: center;
-
 }
 .m-flex {
   display: flex;
@@ -80,7 +79,7 @@ body {
 }
 
 @media (min-width: 640px) {
-  .xl {
+  .t-xl {
     display: none;
   }
   .m-header-width {
@@ -92,7 +91,7 @@ body {
     position: relative;
     z-index: 10;
     text-align: center;
-    margin-right:12rem ;
+    margin-right: 12rem;
   }
   .m-header-width .m-header-leftside h1 {
     text-align: center;
@@ -114,10 +113,10 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .md {
+  .t-md {
     display: none;
   }
-  .xl {
+  .t-xl {
     display: flex;
   }
   .header-width {
@@ -198,7 +197,6 @@ body {
   object-fit: contain;
   width: 8rem;
   margin-right: 1rem;
-
 }
 .speechBubble .bubble2 {
   object-fit: contain;
@@ -214,7 +212,7 @@ body {
 .interest-bg {
   background-color: rgb(109 191 107 / 1);
   height: 3rem;
-  padding: 0.5rem ;
+  padding: 0.5rem;
   width: 20rem;
   border-radius: 1rem /* 16px */;
   position: relative;
@@ -247,7 +245,7 @@ body {
   width: 8rem;
   margin-left: 1rem;
 }
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
   .interest {
     margin-top: 2.5rem /* 40px */;
     margin-bottom: 2.5rem /* 40px */;
@@ -260,7 +258,6 @@ body {
     object-fit: contain;
     width: 10rem;
     margin-right: 3rem;
-  
   }
   .speechBubble .bubble2 {
     object-fit: contain;
@@ -273,12 +270,12 @@ body {
     text-align: center;
     font-weight: 600;
     font-size: 1.3rem;
-    line-height: 2rem/* 32px */;
+    line-height: 2rem /* 32px */;
   }
   .interest-bg {
     background-color: rgb(109 191 107 / 1);
     height: 3rem;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     width: 30rem;
     border-radius: 1rem /* 16px */;
     position: relative;
@@ -311,7 +308,7 @@ body {
     width: 12rem;
     margin-left: 3rem;
   }
-  }
+}
 @media (min-width: 1024px) {
   .interest {
     margin-top: 2.5rem /* 40px */;
@@ -381,7 +378,6 @@ body {
   }
 }
 
-
 /* ------------------------------
     Way
 ------------------------------ */
@@ -394,10 +390,10 @@ body {
   display: none;
 }
 .way .title .mbubble4 {
-width: 30%;
+  width: 30%;
 }
 .way .title h2 {
-  font-size: 1.5rem ;
+  font-size: 1.5rem;
   line-height: 1rem /* 40px */;
   font-weight: 800;
   text-align: center;
@@ -418,10 +414,10 @@ width: 30%;
   display: none;
 }
 .way-list {
-  width: 15rem ;
+  width: 15rem;
   text-align: center;
   margin: 0 auto;
-padding: 2rem 0;
+  padding: 2rem 0;
   border-bottom: dotted rgb(209 213 219 / 1);
 }
 
@@ -430,23 +426,23 @@ padding: 2rem 0;
 }
 .way-list .blue {
   object-fit: contain;
-  height: 8rem ;
-  width: 8rem ;
+  height: 8rem;
+  width: 8rem;
 }
 .way-list .pink {
   object-fit: contain;
-  height: 8rem ;
-  width: 8rem ;
+  height: 8rem;
+  width: 8rem;
 }
 .way-list .green {
   object-fit: contain;
-  height: 8rem ;
-  width: 8rem ;
+  height: 8rem;
+  width: 8rem;
 }
 .way-list .yellow {
   object-fit: contain;
-  height: 8rem ;
-  width: 8rem ;
+  height: 8rem;
+  width: 8rem;
 }
 .way-list h3 {
   text-align: center;
@@ -455,7 +451,7 @@ padding: 2rem 0;
   margin: 1rem 0;
 }
 .way-list .s-blue {
-  font-size: 1rem ;
+  font-size: 1rem;
   position: relative;
 }
 .way-list .s-blue::after {
@@ -470,7 +466,7 @@ padding: 2rem 0;
   border-radius: 0.125rem /* 2px */;
 }
 .way-list .s-pink {
-  font-size: 1rem ;
+  font-size: 1rem;
   position: relative;
 }
 .way-list .s-pink::after {
@@ -485,7 +481,7 @@ padding: 2rem 0;
   border-radius: 0.125rem /* 2px */;
 }
 .way-list .s-green {
-  font-size: 1rem ;
+  font-size: 1rem;
   position: relative;
 }
 .way-list .s-green::after {
@@ -500,7 +496,7 @@ padding: 2rem 0;
   border-radius: 0.125rem /* 2px */;
 }
 .way-list .s-yellow {
-  font-size: 1rem ;
+  font-size: 1rem;
   position: relative;
 }
 .way-list .s-yellow::after {
@@ -517,18 +513,18 @@ padding: 2rem 0;
 .way-list p {
   overflow-wrap: break-word;
   text-align: start;
-  font-size: 0.75rem/* 12px */;
-    line-height: 1rem/* 16px */;
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
 }
 .way-list .language {
   margin-top: 1.25rem /* 20px */;
 }
 .language ul {
   text-align: start;
-  font-size: 0.75rem/* 12px */;
-    line-height: 1rem/* 16px */;
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
 }
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .way {
     background-color: rgb(109 191 107 /1);
     padding-top: 1rem /* 64px */;
@@ -549,7 +545,7 @@ padding: 2rem 0;
   }
   .way .title h2 {
     margin-bottom: 2.5rem /* 40px */;
-    font-size: 2rem ;
+    font-size: 2rem;
     line-height: 2.5rem /* 40px */;
     font-weight: 800;
     text-align: center;
@@ -612,7 +608,6 @@ padding: 2rem 0;
     z-index: 10;
     font-size: 0.75rem;
     line-height: 1rem;
-   
   }
   .way-list .s-blue {
     font-size: 1rem;
@@ -660,7 +655,7 @@ padding: 2rem 0;
     background-color: rgb(112 218 157 / 1);
     height: 12px;
     bottom: 0;
-    left:1.5rem;
+    left: 1.5rem;
     right: 1.5rem;
     z-index: -1;
     border-radius: 0.125rem /* 2px */;
@@ -710,7 +705,6 @@ padding: 2rem 0;
     width: 20rem;
     align-self: center;
     margin-right: 40rem;
-
   }
   .way .title .mbubble4 {
     display: none;
@@ -866,7 +860,7 @@ padding: 2rem 0;
   width: 5rem;
   object-fit: contain;
   display: block;
-  margin: 1rem auto ;
+  margin: 1rem auto;
 }
 @media (min-width: 1024px) {
   .triangle {
@@ -878,92 +872,90 @@ padding: 2rem 0;
 /* ------------------------------
     Join
 ------------------------------ */
-.join{
+.join {
   background-image: url("../img/m-green.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .join h2 {
-  font-size: 1.25rem/* 20px */;
-  line-height: 1.75rem/* 28px */;
-  margin-top: 2rem/* 32px */;
+  font-size: 1.25rem /* 20px */;
+  line-height: 1rem /* 40px */;
+  font-weight: 800;
+  margin-top: 2rem /* 32px */;
   text-align: center;
 }
 .join h3 {
-  font-size: 0.875rem/* 14px */;
-  line-height: 1.25rem/* 20px */;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
   text-align: center;
-  padding-top: 0.5rem/* 8px */;
+  padding-top: 0.5rem /* 8px */;
 }
 .join ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .join1 {
-  width: 12rem/* 128px */;
+  width: 12rem /* 128px */;
   margin: 1.25rem;
   overflow-wrap: break-word;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 .join2 {
-  width: 12rem/* 128px */;
+  width: 12rem /* 128px */;
   margin: 1.25rem;
   overflow-wrap: break-word;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 .join3 {
-  width: 12rem/* 128px */;
+  width: 12rem /* 128px */;
   margin: 1.25rem;
   overflow-wrap: break-word;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 .join4 {
-  width: 12rem/* 128px */;
+  width: 12rem /* 128px */;
   margin: 1.25rem;
   overflow-wrap: break-word;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 .join5 {
-  width: 12rem/* 128px */;
+  width: 12rem /* 128px */;
   margin: 1.25rem;
   overflow-wrap: break-word;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
-.number{
-  font-size: 2.25rem/* 36px */;
-    line-height: 2.5rem/* 40px */;
-
+.number {
+  font-size: 2.25rem /* 36px */;
+  line-height: 2.5rem /* 40px */;
 }
 .join img {
   margin: 1rem auto;
   object-fit: contain;
-  height: 6rem/* 96px */;
+  height: 6rem /* 96px */;
 }
 .join .content {
-  margin: 1rem 0/* 20px */;
+  margin: 1rem 0 /* 20px */;
   text-align: center;
-
 }
 .join .content span {
-  font-size: 1rem/* 16px */;
-  line-height: 1.5rem/* 24px */;
+  font-size: 1rem /* 16px */;
+  line-height: 1.5rem /* 24px */;
 }
 .join .detail {
   overflow-wrap: break-word;
-  font-size: 0.75rem/* 12px */;
-  line-height: 1rem/* 16px */;
+  font-size: 0.75rem /* 12px */;
+  line-height: 1rem /* 16px */;
 }
-@media (min-width: 768px) { 
-  .join{
+@media (min-width: 768px) {
+  .join {
     background-image: url("../img/green.png");
   }
   .join h2 {
@@ -1009,10 +1001,9 @@ padding: 2rem 0;
     line-height: 1;
   }
   .join img {
-
     object-fit: contain;
     width: 12rem;
-    height: 8rem/* 96px */;
+    height: 8rem /* 96px */;
   }
   .join .content {
     margin-top: 1.25rem /* 20px */;
@@ -1022,10 +1013,9 @@ padding: 2rem 0;
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
   }
-
 }
 @media (min-width: 1024px) {
-  .join{
+  .join {
     background-image: url("../img/green.png");
   }
   .join h2 {
@@ -1094,51 +1084,124 @@ padding: 2rem 0;
     font-size: 1.25rem /* 20px */;
     line-height: 1.75rem /* 28px */;
   }
-  /* ------------------------------
+}
+/* ------------------------------
     Curriculum
 ------------------------------ */
-  .curriculum h2 {
+.c-xl {
+  display: none;
+}
+.c-md {
+  display: block;
+}
+.curriculum .c-md h2 {
+  font-size: 1.5rem;
+  line-height: 1rem /* 40px */;
+  font-weight: 800;
+  margin-top: 3rem;
+  text-align: center;
+}
+.curriculum .c-md h3 {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  text-align: center;
+  padding-top: 1.25rem /* 20px */;
+}
+.curriculum .c-md h3 span {
+  display: block;
+}
+.curriculum .c-md table {
+  width: 20rem /* 320px */;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  text-align: center;
+}
+.curriculum .c-md th {
+  display: block;
+  background-color: rgb(109 191 107 / 1);
+  border-style: solid;
+  color: rgb(17 24 39 / 1);
+  padding: 0.5rem /* 8px */;
+  margin-top: 1.25rem /* 20px */;
+  text-align: center;
+}
+.curriculum .c-md td {
+  display: block;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(209 213 219 / 1);
+  background-color: white;
+}
+.curriculum .c-md td:last-child {
+  display: block;
+  width: 100%;
+  background-color: white;
+  border: none;
+}
+.curriculum .c-md td span {
+  display: block;
+}
+@media (min-width: 768px) {
+  .c-md {
+    display: none;
+  }
+  .c-xl {
+    display: block;
+  }
+  .curriculum .c-xl h2 {
     font-size: 2.25rem /* 36px */;
     line-height: 2.5rem /* 40px */;
     margin-top: 8rem /* 128px */;
     text-align: center;
     font-weight: 800;
   }
-  .curriculum h3 {
+  .curriculum .c-xl h3 {
     text-align: center;
     padding-top: 1.25rem /* 20px */;
     padding-bottom: 1.25rem /* 20px */;
   }
-  .curriculum table {
-    width: 1000px;
+  .curriculum .c-xl table {
+    width: 45rem;
     font-size: 0.875rem /* 14px */;
     line-height: 1.25rem /* 20px */;
     text-align: left;
     color: rgb(107 114 128 / 1);
-    margin: 3rem auto;
+    margin: 1rem auto;
   }
-  .curriculum thead {
+  .curriculum .c-xl thead {
     font-size: 0.75rem /* 12px */;
     line-height: 1rem /* 16px */;
     color: rgb(55 65 81 / 1);
     background-color: rgb(109 191 107 / 1);
   }
-  .curriculum th {
+  .curriculum .c-xl th {
     padding: 0.75rem 1.5rem /*12px 24px */;
   }
-  .curriculum tbody tr {
-    background-color: rgb(255 255 255 / 1);
+  .curriculum .c-xl tbody tr {
     border-bottom-width: 1px;
+    border-bottom-color: rgb(209 213 219 / 1);
+    background-color: white;
   }
-  .curriculum tbody tr th {
+  .curriculum .c-xl tbody tr:last-child {
+    border: none;
+  }
+  .curriculum .c-xl tbody tr th {
     padding: 1rem 1.5rem /*16px 24px */;
     font-weight: 500;
     color: rgb(17 24 39 / 1);
     white-space: nowrap;
   }
-  .curriculum tbody tr td {
+  .curriculum .c-xl tbody tr td {
     padding: 1rem 1.5rem /*16px 24px */;
   }
+}
+@media (min-width: 1024px) {
+  .curriculum .c-xl table {
+    width: 1300px;
+  }
+  
 }
 /* ------------------------------
     Apply
