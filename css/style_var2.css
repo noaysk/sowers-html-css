@@ -283,6 +283,9 @@ body {
   }
 }
 @media (min-width: 1024px) {
+  .interest {
+    height: 30rem;
+  }
   .speechBubble .bubble1 {
     width: 14rem;
   }
@@ -291,8 +294,8 @@ body {
     width: 15rem;
   }
   .interest h2 {
-    font-size: 1.5rem; /* 24px */
-    line-height: 2rem; /* 32px */
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
   }
   .interest-bg {
     height: 5rem /* 80px */;
@@ -304,16 +307,37 @@ body {
   }
   .speechBubble .hatena {
     width: 15rem /* 512px */;
+    margin-right: 5rem;
   }
   .speechBubble .bubble3 {
     width: 15em /* 448px */;
+  }
+}
+@media (min-width: 1280px) {
+  .interest {
+    height: 40rem;
+  }
+  .speechBubble .bubble1 {
+    width: 17rem;
+    margin-right: 3rem;
+  }
+  .speechBubble .bubble2 {
+    width: 18rem;
+    margin-left: 3rem;
+  }
+  .speechBubble .hatena {
+    width: 15em /* 448px */;
+    margin-right: 5rem;
+  }
+  .speechBubble .bubble3 {
+    width: 18em /* 448px */;
   }
 }
 /* ------------------------------
     Way
 ------------------------------ */
 .way {
-  padding: 1rem ;
+  padding: 1rem;
 }
 .way .title h2 {
   font-size: 1.125rem; /* 18px */
@@ -601,11 +625,11 @@ body {
 }
 @media (min-width: 1280px) {
   .way .way-lists {
-    width: 85rem;
+    width: 85%;
   }
   .way-list {
-    width: 18rem;
-    margin: 1rem;
+    width: 20%;
+    margin: 1rem 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -653,6 +677,18 @@ body {
   .language ul {
     font-size: 1rem; /* 16px */
     line-height: 1.5rem; /* 24px */
+  }
+}
+@media (min-width: 1536px) {
+  .way .way-lists {
+    width: 85%;
+  }
+  .way-list {
+    width: 18%;
+    margin: 1rem 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 /* ------------------------------
